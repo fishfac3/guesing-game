@@ -9,7 +9,7 @@ def main():
             raise ValueError
         # Generate random number between 1 and n
         rand_num = random_num(number)
-        print(rand_num)
+        #print(rand_num)
         # prompt user to guess number ("Guess: ")
         guess_num = prompt_guess()
         # Validate user guess_num
